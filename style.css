@@ -3,8 +3,8 @@ body {
 }
 
 #up {
-    height: 50px;
-    width: 50px;
+    height: 0px;
+    width: 0px;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 50px solid green;
