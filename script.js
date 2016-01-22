@@ -4,12 +4,12 @@ function init() {
 
     $('#up').click(function() {
         upVote += 1;
-        $('#votes').append('Total UP votes: ' + upVote + ';    Total DOWN votes: ' + downVote + '.');
+        $('#votes').empty().append('Total UP votes: ' + upVote + ';    Total DOWN votes: ' + downVote + '.');
     });
 
     $('#down').click(function() {
         downVote += 1;
-        $('#votes').append('Total UP votes: ' + upVote + ';    Total DOWN votes: ' + downVote + '.');
+        $('#votes').empty().append('Total UP votes: ' + upVote + ';    Total DOWN votes: ' + downVote + '.');
     });
 
 
