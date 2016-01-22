@@ -1,1 +1,1 @@
-alert("Linked!")
+alert("Linked!");
