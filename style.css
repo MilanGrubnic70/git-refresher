@@ -1,3 +1,12 @@
 body {
-	background-color: pink;
+    background-color: pink;
+}
+
+#up {
+    height: 50px;
+    width: 50px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid green;
+    margin: auto;
 }
