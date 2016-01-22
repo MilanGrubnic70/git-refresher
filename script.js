@@ -1,3 +1,3 @@
-$(document).ready() {
-    alert("Linked!");
-}
+$(document).ready(function() {
+    alert('jQuery Linked!');
+});
