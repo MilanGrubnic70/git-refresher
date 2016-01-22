@@ -19,3 +19,11 @@ body {
     border-top: 50px solid red;
     margin: auto;
 }
+
+#votes {
+	height: 20px;
+	width: 350px;
+	background-color: yellow;
+	margin: auto;
+	border-radius: 5px;
+}

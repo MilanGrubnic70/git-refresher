@@ -4,13 +4,15 @@ function init() {
 
     $('#up').click(function() {
         upVote += 1;
-        console.log(upVote);
-    })
+        $('#votes').append('Total UP votes: ' + upVote + ';    Total DOWN votes: ' + downVote + '.');
+    });
 
     $('#down').click(function() {
         downVote += 1;
-        console.log(downVote);
-    })
+        $('#votes').append('Total UP votes: ' + upVote + ';    Total DOWN votes: ' + downVote + '.');
+    });
+
+
 
 }
 
