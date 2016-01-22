@@ -1,1 +1,3 @@
-alert("Linked!");
+$(document).ready() {
+    alert("Linked!");
+}
